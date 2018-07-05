@@ -1,6 +1,6 @@
 FROM python:3
 ADD setup.py /
-RUN pip install --upgrade tensorflow
+RUN pip install tensorflow
 RUN pip install numpy
 RUN pip install scipy
 RUN pip install opencv-python
