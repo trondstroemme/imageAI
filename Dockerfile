@@ -1,5 +1,5 @@
 FROM python:3
-ADD setup.py
+ADD setup.py /
 RUN pip3 install --upgrade tensorflow
 RUN pip3 install numpy
 RUN pip3 install scipy
